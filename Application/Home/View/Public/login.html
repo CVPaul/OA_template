@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>{$Think.lang._PUBLIC_LOGIN_WYL_MANAGEMENT_SYSTEM_LOGIN_}</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="__PUBLIC__/styles/login.css">
+	<script src="__PUBLIC__/scripts/seajs/sea.js"></script>
+	<script src="__PUBLIC__/scripts/seajs/config.js"></script>
+	<script>
+	    var LANG = "{$lang}";
+		seajs.config({
+			vars:{
+				lang:"{$lang}"
+			},
+			paths:{
+				"css":"__PUBLIC__/styles"
+			}
+		});
+		seajs.use("src/{:MODULE_NAME}/{:ACTION_NAME}.js");
+		var GlobalData = {
+			url : "__URL__"
+		}
+	</script>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="top">
+			<a class="logo" href="__URL__/login">
+				<img src="__PUBLIC__/image/{$lang}/logo.png" alt="">
+			</a>
+
+			<if condition="$lang eq 'zh-cn'">
+				<div class="droplist">
+					<div class="label">
+						<span class="blue">简体中文</span>
+						<i class="icon dropdown-es"></i>
+					</div>
+					<div class="list box-align-right">
+						<ul class="list hover">
+							<li><a class="blue block" href="__URL__/login/l/zh-tw">繁體中文</a></li>
+							<li><a class="blue block" href="__URL__/login/l/en-us">English</a></li>
+						</ul>				
+					</div>
+				</div>
+			</if>
+			<if condition="$lang eq 'zh-tw'">
+				<div class="droplist">
+					<div class="label">
+						<span class="blue">繁體中文</span>
+						<i class="icon dropdown-es"></i>
+					</div>
+					<div class="list box-align-right">
+						<ul class="list hover">
+							<li><a class="blue block" href="__URL__/login/l/zh-cn">简体中文</a></li>
+							<li><a class="blue block" href="__URL__/login/l/en-us">English</a></li>
+						</ul>				
+					</div>
+				</div>
+			</if>
+			<if condition="$lang eq 'en-us'">
+				<div class="droplist">
+					<div class="label">
+						<span class="blue">English</span>
+						<i class="icon dropdown-es"></i>
+					</div>
+					<div class="list box-align-right">
+						<ul class="list hover">
+							<li><a class="blue block" href="__URL__/login/l/zh-cn">简体中文</a></li>
+							<li><a class="blue block" href="__URL__/login/l/zh-tw">繁體中文</a></li>
+						</ul>				
+					</div>
+				</div>
+			</if>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="main">
+			<table id="loginTable" style="width:100%;">
+				<tr>
+					<td>						
+						<div id="advGallery" class="slideBox" style="width: 450px; height: 200px; overflow: hidden;">
+							<empty name="arrImg">
+							<img src="__PUBLIC__/image/{$lang}/banner_home.png" alt="" />    
+							<else /><?php $count = count(arrImg);?>
+							<ul <if condition="count($arrImg) neq 1"> class="items" </if> >
+							<volist name="arrImg" id="data">
+							     <empty name="data.adimage_url">
+								    <li><img src="{$img_path}{$data.adimage_name}" title="{$data.adimage_title}" /></li>
+								 <else/>
+								    <li><a href="{$data.adimage_url}" target="_blank"><img src="{$img_path}{$data.adimage_name}" title="{$data.adimage_title}" /></a></li>
+								 </empty>
+							</volist>
+							</ul>
+							</empty>
+						</div>
+					</td>
+					<td>
+						<div class="block-box">
+							<div class="block-box-hd">
+								<div style="float:right; margin-top:2px;">
+                                	<a href="__ROOT__/Agent/index.php?s=/SendBooking/index"><span>预约送仓</span></a>
+								</div>
+								<i class="icon user-m"></i><strong>{$Think.lang._PUBLIC_LOGIN_SIGNIN_}</strong>
+							</div>
+							<div class="block-box-bd">
+								<form name="login" id="loginForm">
+									<div class="item">
+										<div class="form-group">
+											<label for="account" class="control-label">{$Think.lang._PUBLIC_LOGIN_USERID_}</label>
+											<div class="control-wrap">
+												<input type="text" name="account" id="account" value="{$account}"
+                                                       placeholder="{$Think.lang._PUBLIC_LOGIN_ENTER_USERNAME_}" />
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="form-group">
+											<label for="password" class="control-label">{$Think.lang._PUBLIC_LOGIN_PASSWORD_}</label>
+											<div class="control-wrap">
+												<input type="password" name="password" id="password" value="" id="" placeholder="{$Think.lang._PUBLIC_LOGIN_ENTER_PASSWORD_}" />
+											</div>
+										</div>
+									</div>
+									<if condition="C('SHOW_VERIFY') eq true">
+									<div class="item">
+										<div class="form-group">
+											<label for="" class="control-label">{$Think.lang._PUBLIC_LOGIN_CAPTCHA_}</label>
+											<div class="control-wrap auto">
+												<input type="text" name="verify" value="" id="verify" maxlength="4" style="width:80px;" />
+												<img id="verifyImg" src="__URL__/verify/" onClick="this.src='__URL__/verify/'+new Date().getTime();verify.value=''" title="{$Think.lang._PUBLIC_LOGIN_REFRESH_}" width="70px" height="28px" style="cursor:pointer">
+												<a href="javascript:document.getElementById('verifyImg').click();">{$Think.lang._PUBLIC_LOGIN_REFRESH_}</a>
+											</div>
+										</div>
+									</div>
+									</if>
+									<div class="item">
+										<input id="loginBtn" type="submit" class="btn btn-m-es btn-blue" value="{$Think.lang._PUBLIC_LOGIN_SIGNIN_}">
+									</div>
+									<div class="item">
+										<neq name="Think.session.ERP_LANG" value="en_US">
+											<a href="__APP__/Register/index/" class="btn btn-lra" style="margin-left: 108px;">{$Think.lang._PUBLIC_REGISTERED_BTN_}</a>
+										</neq>
+										<a href="__APP__/Public/forgetPassword"  class="btn btn-lra">{$Think.lang._PUBLIC_FORGET_PASSWORD_}</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>			
+		</div>	
+	</div>
+
+	<div class="area footer relative">
+		Powered by {$Think.lang._COMMON_WINIT_} © 2015 WINIT CORPORATION. All Rights Reserved.
+		<div class="login-ebay-logo pull-right"></div>
+	</div>
+</div>
+<div style='display:none;'>
+<!--  量子统计代码  -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/3342963/tongji.js"></script>
+</div>
+</body>
+
+</html>

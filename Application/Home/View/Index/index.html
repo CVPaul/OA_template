@@ -1,28 +1,27 @@
-<!doctype html>
-<html lang="zh">
-<head>
+{// 加载头部公共文件 }
+<include file="Public:header" />
+{// 加载页眉文件 }
+<include file="Public:top" />
+{// 加载加载菜单 }
+<include file="Public:menu" />
+
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-<meta name="viewport" content="width=device-width/2, initial-scale=1.0">
-<title>兴义市法院首页</title>
+<link href="__PUBLIC__/css/slide/style.css" rel="stylesheet" type="text/css" />
+<meta charset="UTF-8">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel='stylesheet' href='http://libs.useso.com/js/font-awesome/4.2.0/css/font-awesome.min.css'>
-</head>
-<body>
-</header>
 <div class="container">
 	<!-- progressbar -->
 	<section id="progressbar-slider" class="sample slider--animated" data-slidizle data-slidizle-loop="true" data-slidizle-timeout="3000" data-slidizle-pause-on-hover="true">
 
 		<ul class="slider-content" data-slidizle-content>
 	
-			<li data-slidizle-slide-id="slide1" class="slider-item" style="background-image:url('img/01.jpg')">
+			<li data-slidizle-slide-id="slide1" class="slider-item" style="background-image:url('__PUBLIC__/image/slide/01.jpg')">
 			</li>
 
-			<li data-slidizle-slide-id="slide2" data-slidizle-timeout="1000" class="slider-item" style="background-image:url('img/02.jpg')">
+			<li data-slidizle-slide-id="slide2" data-slidizle-timeout="1000" class="slider-item" style="background-image:url('__PUBLIC__/image/slide/02.jpg')">
 			</li>
 
-			<li data-slidizle-slide-id="slide3" class="slider-item" style="background-image:url('img/03.jpg')">
+			<li data-slidizle-slide-id="slide3" class="slider-item" style="background-image:url('__PUBLIC__/image/slide/03.jpg')">
 			</li>
 
 		</ul>
@@ -44,11 +43,11 @@
 		<div class="slider-progressbar"></div>
 
 		<ul class="slider-navigation" data-slidizle-navigation>
-			<li class="slider-navigation-item" data-slidizle-slide-id="slide2" style="background-image:url('img/02.jpg')">
+			<li class="slider-navigation-item" data-slidizle-slide-id="slide2" style="background-image:url('__PUBLIC__/image/slide/02.jpg')">
 			</li>
-			<li class="slider-navigation-item" data-slidizle-slide-id="slide1" style="background-image:url('img/01.jpg')">
+			<li class="slider-navigation-item" data-slidizle-slide-id="slide1" style="background-image:url('__PUBLIC__/image/slide/01.jpg')">
 			</li>
-			<li class="slider-navigation-item" data-slidizle-slide-id="slide3" style="background-image:url('img/03.jpg')">
+			<li class="slider-navigation-item" data-slidizle-slide-id="slide3" style="background-image:url('__PUBLIC__/image/slide/03.jpg')">
 			</li>
 		</ul>
 
@@ -113,5 +112,24 @@
 		// });
 	});
 </script>
-</body>
-</html>
+<div id="{:MODULE_NAME}" class="main"> 
+	<div id="new_notice" class="new_notice">
+		<div class="Journalism">
+			最新新闻
+		</div>
+		<div class="Important_notice">
+			重要通知
+		</div>
+	</div>
+	<div id="department" class="department">
+		<div>部门</div>
+		<ul>
+			<li>部门1</li>
+			<li>部门2</li>
+			<li>部门3</li>
+			<li>部门4</li>
+		</ul>
+	</div>
+</div>
+{// 加载加载页脚 }
+<include file="Public:footer"/>

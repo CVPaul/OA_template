@@ -1,0 +1,114 @@
+[ 2016-08-07T03:26:44+08:00 ] ::1 /OA_WEB/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001775s ]
+ERR: 无法加载模块:Index
+
+[ 2016-08-07T12:20:15+08:00 ] ::1 /OA_template/Public/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-07T12:22:02+08:00 ] ::1 /OA_template/Public/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-07T12:23:14+08:00 ] ::1 /OA_template/Public/css/img/loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-07T12:32:45+08:00 ] ::1 /OA_template/js/jquery.slidizle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-07T12:32:45+08:00 ] ::1 /OA_template/js/jquery.slidizle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-07T12:32:58+08:00 ] ::1 /OA_template/js/jquery.slidizle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-07T12:32:58+08:00 ] ::1 /OA_template/js/jquery.slidizle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-07T12:46:45+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:45+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:45+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:48+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:49+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:52+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:55+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:56+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:46:59+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:47:02+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-07T12:47:12+08:00 ] ::1 /OA_template/__PUBLIC_/image/slide/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+ERR: 无法加载模块:__PUBLIC_
+
