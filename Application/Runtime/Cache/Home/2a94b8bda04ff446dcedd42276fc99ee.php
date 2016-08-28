@@ -6,16 +6,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no" />
-	<link rel="stylesheet" href="/oa_template/OA_template/Public/styles/base.css">
-	<link href="/oa_template/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/OA_template/Public/styles/base.css">
+	<link href="/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
 	<!-- css -->
-	<link href="/oa_template/OA_template/Public/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="/oa_template/OA_template/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-	<link href="/oa_template/OA_template/Public/css/style.css" rel="stylesheet" />
+	<link href="/OA_template/Public/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/OA_template/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+	<link href="/OA_template/Public/css/style.css" rel="stylesheet" />
 
-	<script src="/oa_template/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
-	<script>window.jQuery || document.write('<script src="/oa_template/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
-	<script src="/oa_template/OA_template/Public/js/jquery.slidizle.js"></script>
+	<script src="/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script src="/OA_template/Public/js/jquery.slidizle.js"></script>
 </head>
 <body>
 <div class="container">
@@ -25,8 +25,8 @@
 <div class="header">
 	<div class="top">
 		<div class="area">
-			<a class="logo" href="/oa_template/OA_template/index.php/Index/index">
-				<img src="/oa_template/OA_template/Public/image/logo.png" alt="">
+			<a class="logo" href="/OA_template/index.php/Index/index">
+				<img src="/OA_template/Public/image/logo.png" alt="">
 			</a>
 		</div>
 	</div>	
@@ -98,13 +98,13 @@
 
 			<ul class="slider-content" data-slidizle-content>
 		
-				<li data-slidizle-slide-id="slide1" class="slider-item" style="background-image:url('/oa_template/OA_template/Public/image/slide/01.jpg')">
+				<li data-slidizle-slide-id="slide1" class="slider-item" style="background-image:url('/OA_template/Public/image/slide/01.jpg')">
 				</li>
 
-				<li data-slidizle-slide-id="slide2" data-slidizle-timeout="1000" class="slider-item" style="background-image:url('/oa_template/OA_template/Public/image/slide/02.jpg')">
+				<li data-slidizle-slide-id="slide2" data-slidizle-timeout="1000" class="slider-item" style="background-image:url('/OA_template/Public/image/slide/02.jpg')">
 				</li>
 
-				<li data-slidizle-slide-id="slide3" class="slider-item" style="background-image:url('/oa_template/OA_template/Public/image/slide/03.jpg')">
+				<li data-slidizle-slide-id="slide3" class="slider-item" style="background-image:url('/OA_template/Public/image/slide/03.jpg')">
 				</li>
 
 			</ul>
@@ -123,11 +123,11 @@
 			<div class="slider-progressbar"></div>
 
 			<ul class="slider-navigation" data-slidizle-navigation>
-				<li class="slider-navigation-item" data-slidizle-slide-id="slide2" style="background-image:url('/oa_template/OA_template/Public/image/slide/02.jpg')">
+				<li class="slider-navigation-item" data-slidizle-slide-id="slide2" style="background-image:url('/OA_template/Public/image/slide/02.jpg')">
 				</li>
-				<li class="slider-navigation-item" data-slidizle-slide-id="slide1" style="background-image:url('/oa_template/OA_template/Public/image/slide/01.jpg')">
+				<li class="slider-navigation-item" data-slidizle-slide-id="slide1" style="background-image:url('/OA_template/Public/image/slide/01.jpg')">
 				</li>
-				<li class="slider-navigation-item" data-slidizle-slide-id="slide3" style="background-image:url('/oa_template/OA_template/Public/image/slide/03.jpg')">
+				<li class="slider-navigation-item" data-slidizle-slide-id="slide3" style="background-image:url('/OA_template/Public/image/slide/03.jpg')">
 				</li>
 			</ul>
 
@@ -147,7 +147,7 @@
 					<li><a href="#">excepturi sint occaecati.</a><span>January 3, 2016</span></li>
 				</ul>
 			</div>
-			<div class="Journalism">
+			<div class="Notice">
 				<h4>重要通知</h4>
 				<ul>
 					<li><a href="#">Duis aute irure dolor in reprehenderit.</a><span>December 15, 2015</span></li>
@@ -162,28 +162,28 @@
 			<div class="skill-home"> <div class="skill-home-solid clearfix"> 
 			<div class="col-md-3 text-center">
 			<span class="icons c1"><i class="fa fa-trophy"></i></span> <div class="box-area">
-			<h3>Web Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+			<h3>人力资源部</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
 			</div>
 			<div class="col-md-3 text-center"> 
 			<span class="icons c2"><i class="fa fa-picture-o"></i></span> <div class="box-area">
-			<h3>UI Design</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+			<h3>财务部</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
 			</div>
 			<div class="col-md-3 text-center"> 
 			<span class="icons c3"><i class="fa fa-desktop"></i></span> <div class="box-area">
-			<h3>Interaction</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
+			<h3>技术部</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
 			</div>
 			<div class="col-md-3 text-center"> 
 			<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
-			<h3>User Experiance</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+			<h3>宣传部</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
 			</div></div>
 			</div></div>
 		</div>
-</div>
+	</div>
 
 
 		
 	<footer>
-	<div class="container">
+	<div class="footer_frame">
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="widget">

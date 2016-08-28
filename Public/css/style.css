@@ -344,7 +344,7 @@ right:0px;
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 .skill-home{
-margin-bottom:50px;
+margin-bottom:10px;
 }
 .c1{
 border: #ed5441 1px solid;
@@ -996,7 +996,10 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #14A085;
+	background: #14A085;
+	margin-top: 10px;
+    border-top: 1px solid #D3D3D3;
+    /*color:#888888;*/
 }
 footer ul.link-list li a{
 	color: #FFFFFF;

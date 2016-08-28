@@ -6,16 +6,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no" />
-	<link rel="stylesheet" href="/oa_template/OA_template/Public/styles/base.css">
-	<link href="/oa_template/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/OA_template/Public/styles/base.css">
+	<link href="/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
 	<!-- css -->
-	<link href="/oa_template/OA_template/Public/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="/oa_template/OA_template/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-	<link href="/oa_template/OA_template/Public/css/style.css" rel="stylesheet" />
+	<link href="/OA_template/Public/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/OA_template/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+	<link href="/OA_template/Public/css/style.css" rel="stylesheet" />
 
-	<script src="/oa_template/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
-	<script>window.jQuery || document.write('<script src="/oa_template/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
-	<script src="/oa_template/OA_template/Public/js/jquery.slidizle.js"></script>
+	<script src="/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script src="/OA_template/Public/js/jquery.slidizle.js"></script>
 </head>
 <body>
 <div class="container">
@@ -25,8 +25,8 @@
 <div class="header">
 	<div class="top">
 		<div class="area">
-			<a class="logo" href="/oa_template/OA_template/index.php/Index/index">
-				<img src="/oa_template/OA_template/Public/image/logo.png" alt="">
+			<a class="logo" href="/OA_template/index.php/Index/index">
+				<img src="/OA_template/Public/image/logo.png" alt="">
 			</a>
 		</div>
 	</div>	
@@ -45,7 +45,7 @@
 	<div class="container" style="width: 960px;">
 		<div class="news-top">
 			<div class="news-left-slide">
-				<img src="/oa_template/OA_template/Public/image/slibe/313.png">
+				<img src="/OA_template/Public/image/slibe/313.png">
 			</div>
 			<div class="news-right-important-notice">
 				<div class="important-notice-title">
@@ -69,7 +69,7 @@
 				<ul>
 					<li>
 						<div class="sector-news-layout">
-							<div class="news-img"><img src="/oa_template/OA_template/Public/image/news/910.png" height="100"></div>
+							<div class="news-img"><img src="/OA_template/Public/image/news/910.png" height="100"></div>
 							<div class="news-message">
 								<div class="news-title">山东儿童游泳后口舌发黑 卫生部门:水质正常</div>
 								<span class="news-introduction">
@@ -81,7 +81,7 @@
 					</li>
 					<li>
 						<div class="sector-news-layout">
-							<div class="news-img"><img src="/oa_template/OA_template/Public/image/news/924.png" height="100"></div>
+							<div class="news-img"><img src="/OA_template/Public/image/news/924.png" height="100"></div>
 							<div class="news-message">
 								<div class="news-title">黑龙江一村民农作时遭黑熊袭击 浑身多处被抓伤</div>
 								<span class="news-introduction">
@@ -93,7 +93,7 @@
 					</li>
 					<li>
 						<div class="sector-news-layout">
-							<div class="news-img"><img src="/oa_template/OA_template/Public/image/news/952.png" height="100"></div>
+							<div class="news-img"><img src="/OA_template/Public/image/news/952.png" height="100"></div>
 							<div class="news-message">
 								<div class="news-title">合肥一垃圾场官员受贿202万判刑 开始只承认12万</div>
 								<span class="news-introduction">
@@ -105,7 +105,7 @@
 					</li>
 					<li>
 						<div class="sector-news-layout">
-							<div class="news-img"><img src="/oa_template/OA_template/Public/image/news/017.png" height="100"></div>
+							<div class="news-img"><img src="/OA_template/Public/image/news/017.png" height="100"></div>
 							<div class="news-message">
 								<div class="news-title">河南新乡连夜搜捕持枪疑犯:抓获3人仍有1人在逃</div>
 								<span class="news-introduction">
@@ -117,7 +117,7 @@
 					</li>
 					<li>
 						<div class="sector-news-layout">
-							<div class="news-img"><img src="/oa_template/OA_template/Public/image/news/038.png" height="100"></div>
+							<div class="news-img"><img src="/OA_template/Public/image/news/038.png" height="100"></div>
 							<div class="news-message">
 								<div class="news-title">重庆开州今年夏天最高气温达43.4 破历史极值</div>
 								<span class="news-introduction">
