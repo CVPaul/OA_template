@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no" />
+<<<<<<< f47c721009da3a84504758c1d652d79e31121cd3
 	<link rel="stylesheet" href="/OA_template/Public/styles/base.css">
 	<link href="/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
 	<!-- css -->
@@ -16,6 +17,18 @@
 	<script src="/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
 	<script>window.jQuery || document.write('<script src="/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
 	<script src="/OA_template/Public/js/jquery.slidizle.js"></script>
+=======
+	<link rel="stylesheet" href="/oa_template/OA_template/Public/styles/base.css">
+	<link href="/oa_template/OA_template/Public/css/slide/style.css" rel="stylesheet" type="text/css" />
+	<!-- css -->
+	<link href="/oa_template/OA_template/Public/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/oa_template/OA_template/Public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+	<link href="/oa_template/OA_template/Public/css/style.css" rel="stylesheet" />
+
+	<script src="/oa_template/OA_template/Public/js/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="/oa_template/OA_template/Public/js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script src="/oa_template/OA_template/Public/js/jquery.slidizle.js"></script>
+>>>>>>> modified by xsp, added login
 </head>
 <body>
 <div class="container">
@@ -25,8 +38,13 @@
 <div class="header">
 	<div class="top">
 		<div class="area">
+<<<<<<< f47c721009da3a84504758c1d652d79e31121cd3
 			<a class="logo" href="/OA_template/index.php/Index/index">
 				<img src="/OA_template/Public/image/logo.png" alt="">
+=======
+			<a class="logo" href="/oa_template/OA_template/index.php/Index/index">
+				<img src="/oa_template/OA_template/Public/image/logo.png" alt="">
+>>>>>>> modified by xsp, added login
 			</a>
 		</div>
 	</div>	
@@ -70,6 +88,7 @@
 							<table id="user-message">
 								<tr>
 									<td>
+<<<<<<< f47c721009da3a84504758c1d652d79e31121cd3
 										<div class="name-img"><img src="/OA_template/Public/image/sector/917.png"></div>
 									</td>
 									<td>
@@ -77,6 +96,15 @@
 									</td>
 									<td style="border-right:none;">
 										<div class="name-img"><img src="/OA_template/Public/image/sector/950.png"></div>
+=======
+										<div class="name-img"><img src="/oa_template/OA_template/Public/image/sector/917.png"></div>
+									</td>
+									<td>
+										<div class="name-img"><img src="/oa_template/OA_template/Public/image/sector/929.png"></div>
+									</td>
+									<td style="border-right:none;">
+										<div class="name-img"><img src="/oa_template/OA_template/Public/image/sector/950.png"></div>
+>>>>>>> modified by xsp, added login
 									</td>
 								</tr>
 								<tr>

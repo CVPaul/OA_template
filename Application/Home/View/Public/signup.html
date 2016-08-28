@@ -2,9 +2,9 @@
 <html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Website:login page</title>
-		<meta name="keywords" content="login" />
-		<meta name="description" content="for all users" />
+        <title>Website:signup page</title>
+		<meta name="keywords" content="signup" />
+		<meta name="description" content="for new users" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -24,18 +24,14 @@
     <body>
 
         <div class="page-container">
-            <h1>登录</h1>
-			{% if failed %}
-				<strong>登录失败!</strong>请确认用户名和密码或<a href='/signup'>注册</a>成为新用户.
-			{% endif %}
-            <form action="/login" method="post">
-                <input type="text" name="username" class="username" placeholder="用户名">
+            <h1>注册</h1>
+			<form action= "/signup" method="post">
+				<input type="text" name="username" class="username" placeholder="用户名">
+				<input type="text" name="email" class="username" placeholder="邮箱">
                 <input type="password" name="password" class="password" placeholder="密码">
                 <button type="submit">提交</button>
                 <div class="error"><span>+</span></div>
-            </form>
-			<button onclick="javascript:window.location.href='signup'" type="submit">注册</button>
-			<button onclick="javascript:window.location.href='forgot'" type="submit">忘记密码</button>
+			</form>
             <!--div class="connect">
                 <p>Or connect with:</p>
                 <p>

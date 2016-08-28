@@ -69,11 +69,19 @@ class PublicController extends Controller {
         return $parseStr;
     }
 
+    //登录
     public function login(){
         $this->display();
     }
 
- 
+    //注册
+    public function signup(){
+        $this->display();
+    }
 
+    //忘记密码
+    public function forgot(){
+        $this->display();
+    }
 
 }

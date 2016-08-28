@@ -28,7 +28,7 @@ $menu = array(
 			'name' => '登录',
 			'id' => '0',
 			'parent_id' => '0',
-			'link' => ''
+			'link' => '/Public/login'
 		)
 	);
 	 

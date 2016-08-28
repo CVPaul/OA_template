@@ -2,8 +2,8 @@
 <html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Website:login page</title>
-		<meta name="keywords" content="login" />
+        <title>Password recover page</title>
+		<meta name="keywords" content="forgot" />
 		<meta name="description" content="for all users" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
@@ -24,18 +24,16 @@
     <body>
 
         <div class="page-container">
-            <h1>登录</h1>
-			{% if failed %}
-				<strong>登录失败!</strong>请确认用户名和密码或<a href='/signup'>注册</a>成为新用户.
-			{% endif %}
-            <form action="/login" method="post">
-                <input type="text" name="username" class="username" placeholder="用户名">
-                <input type="password" name="password" class="password" placeholder="密码">
-                <button type="submit">提交</button>
-                <div class="error"><span>+</span></div>
-            </form>
-			<button onclick="javascript:window.location.href='signup'" type="submit">注册</button>
-			<button onclick="javascript:window.location.href='forgot'" type="submit">忘记密码</button>
+            <h1>找回密码</h1>
+			<p>忘记密码了？点击“提交”接受密码恢复按钮</p>
+			{% if not_found %}
+				<strong>查找失败!</strong>没有找到该用户名.
+			{% endif %} 
+			<form action= "/forgot" method="post">
+				<input type="text" value="{{ username }}" name="username" class="username" placeholder="用户名"/>
+				<button type="submit">提交</button>
+				<div class="error"><span>+</span></div>
+			</form>
             <!--div class="connect">
                 <p>Or connect with:</p>
                 <p>
